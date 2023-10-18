@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine, Column, Integer, String, create_engine, func, ForeignKey, TIMESTAMP
+from sqlalchemy import  Column, Integer, String, ForeignKey, TIMESTAMP
 from sqlalchemy.orm import relationship
-from database import Base, SessionLocal
+from database import Base
 
 class Feed(Base):
     __tablename__ = 'feed_action'

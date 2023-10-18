@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, Integer, String, create_engine, func, ForeignKey, TIMESTAMP
+from sqlalchemy import  Column, Integer, String
 from database import Base, SessionLocal
 
 
