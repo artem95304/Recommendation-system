@@ -13,7 +13,7 @@ import pickle
 from datetime import datetime
 import pandas as pd
 
-SQLALCHEMY_DATABASE_URL = "postgresql://robot-startml-ro:pheiph0hahj1Vaif@postgres.lab.karpov.courses:6432/startml"
+SQLALCHEMY_DATABASE_URL = "postgresql://robot-startml-ro:pheiph0hahj1Vaif@postgres.lab.karpov.courses:####/startml"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
