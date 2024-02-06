@@ -1,4 +1,4 @@
-fastapi==0.75.1
+fastapi==0.109.1
 pandas==1.4.2
 sqlalchemy==1.4.35
 requests==2.27.1
